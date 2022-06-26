@@ -2,7 +2,7 @@
 # OFFiCiAlxsPaM
 
 <p align="center">
-  <img src="https://te.legra.ph/file/f7d9ea881402cb781cab2.jpg">
+  <img src="https://te.legra.ph/file/546ee2a353a7a672bfcd0.jpg">
 </p>
 
 
