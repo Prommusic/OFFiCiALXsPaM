@@ -9,9 +9,9 @@
         "KiLLErXsPaM",
         "SpamBots"
     ],
-    "repository": "https://t.me/TheRiZoeL",
-    "website": "https://t.me/TheRiZoeL",
-    "success_url": "https://t.me/TheRiZoeL",
+    "repository": "",
+    "website": "",
+    "success_url": "",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
