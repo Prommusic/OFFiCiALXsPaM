@@ -1,7 +1,7 @@
 {
-    "name": "KiLLErXsPaM HERE.",
-    "description": "MOST POWERFUL + STABLE SPAM USERBOTS🔥",
-    "logo": "https://te.legra.ph/file/546ee2a353a7a672bfcd0.jpg",
+    "name": "KiLLErXsPaM  HERE.",
+    "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
+    "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -112,18 +112,9 @@
       }
     }
   ],
-   "buildpacks": [{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
-  }]
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
-
-        
-         
-        
-   
