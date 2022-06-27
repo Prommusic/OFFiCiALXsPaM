@@ -1,18 +1,17 @@
 {
     
-    "name": "RIZOELXSPAM HERE.",
+    "name": "KiLLErXsPaM HERE.",
     "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
     "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "RiZoeLXSpam",
-        "SpamBots"
+        "KiLLErXsPaM",
+        "SpamBots", 
     ],
-    "repository": "https://t.me/TheRiZoeL",
-    "website": "https://t.me/TheRiZoeL",
-    "success_url": "https://t.me/TheRiZoeL",
+    "repository": "https://github.com/Prommusic/OFFiCiALXsPaM",
+    "
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -113,12 +112,7 @@
       }
     }
   ],
-   "buildpacks": [{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+   "buildpacks": [
   },{ 
     "url": "heroku/python"
   }]
