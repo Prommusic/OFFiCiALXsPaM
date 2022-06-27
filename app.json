@@ -113,10 +113,22 @@
       }
     }
   ],
-  "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
+   "buildpacks": [{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url":  "https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/python.tgz
+  },{ 
+    "url": "heroku/python"
+  }]
 }
+
+        
+           
+        
+    
+
 
