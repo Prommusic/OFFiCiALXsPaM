@@ -11,7 +11,7 @@
         "SpamBots", 
     ],
     "repository": "https://github.com/Prommusic/OFFiCiALXsPaM",
-    "
+    
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -113,7 +113,7 @@
     }
   ],
    "buildpacks": [
-  },{ 
+  
     "url": "heroku/python"
   }]
 }
