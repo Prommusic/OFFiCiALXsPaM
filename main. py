@@ -1,0 +1,50 @@
+import glob
+from pathlib import Path
+from KiLLErXsPaM.utils import load_plugins
+import logging
+from . import XD1, XD2, XD3, XD4, XD5, XD6, XD7, XD8, XD9, XD10
+
+logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
+                    level=logging.WARNING)
+
+
+path = "KiLLErXsPaM/plugins/*.py"
+files = glob.glob(path)
+for name in files:
+    with open(name) as a:
+        patt = Path(a.name)
+        plugin_name = patt.stem
+        load_plugins(plugin_name.replace(".py", ""))
+
+print("KiLLEr X BotSpam Successfully Deployed !!")
+print("Enjoy..!  Do Visit @XO_XPM")
+
+if __name__ == "__main__":
+    XD.run_until_disconnected()
+    
+if __name__ == "__main__":
+    XD2.run_until_disconnected()
+
+if __name__ == "__main__":
+    XD3.run_until_disconnected()
+    
+if __name__ == "__main__":
+    XD4.run_until_disconnected()
+
+if __name__ == "__main__":
+    XD5.run_until_disconnected()
+    
+if __name__ == "__main__":
+    XD6.run_until_disconnected()
+    
+if __name__ == "__main__":
+    XD7.run_until_disconnected()
+
+if __name__ == "__main__":
+    XD8.run_until_disconnected()
+    
+if __name__ == "__main__":
+    XD9.run_until_disconnected()
+
+if __name__ == "__main__":
+    XD10.run_until_disconnected()    
