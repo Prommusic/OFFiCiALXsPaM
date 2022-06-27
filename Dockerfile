@@ -1,13 +1,10 @@
-FROM sandy1709/catuserbot:alpine
+FROM debian:latest
 
-#clonning repo 
-RUN git clone  https://github.com/Prommusic/OFFiCiALXsPaM.git /root/KiLLErXsPam
-#working directory 
-WORKDIR /root/KiLLErXspam
-
-# Install requirements
+RUN apt update && apt upgrade -y
+RUN apt install git curl python3-pip -y
+RUN pip3 install -U pip
+RUN mkdir /app/
+WORKDIR /app/
+COPY . /app/
 RUN pip3 install -U -r requirements.txt
-
-ENV PATH="/home/KiLLErXsPaM/bin:$PATH"
-
-CMD ["python3","-m","KiLLErXsPaM"]
+CMD python3 KiLLErXsPaM
